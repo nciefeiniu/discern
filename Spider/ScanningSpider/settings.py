@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'ScanningSpider.pipelines.ScanningspiderPipeline': 1
+    'ScanningSpider.pipelines.ScanningspiderPipeline': 100
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -89,5 +89,5 @@ HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 MYSQL_HOST = "localhost"
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "ha<06vSk:gj("
+MYSQL_PASSWORD = "123456"
 MYSQL_DB_NAME = "scanning"

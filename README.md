@@ -1,5 +1,7 @@
 # discern
 
+- python 3.8
+
 #### 介绍
 “谛听”（discern）资产识别分析平台，IOT—Scanner的迭代优化版本，使用爬虫创建数据库，无需数据集即可使用
 
